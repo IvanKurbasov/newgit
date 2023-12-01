@@ -1,3 +1,7 @@
 #python
-a = max(sp)
-print(a)
+a = int(input())
+sp = []
+for i in range(a):
+	sp[i] = int(input())
+b = max(sp)
+print(b)
